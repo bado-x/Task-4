@@ -1,0 +1,122 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    padding: 30px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px black;
+
+}
+
+.d-1{
+    padding: 30px;
+    border: solid 4px red;
+    
+}
+
+.p-1{
+    background-color: rgb(221, 221, 221);
+    padding: 15px;
+    border: solid red;
+    color: red;
+    display: inline;
+    font-family: initial;
+    font-size: large;
+}
+
+.d-2{
+    margin-top: 10px;
+   
+    width: 300px;
+    height: 80px;
+    background-color: rgb(112, 33, 108);
+    border-radius: 10px;
+}
+
+.d-3{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    background-color: rgb(141, 42, 136);
+    border-radius: 10px;
+    
+}
+
+.d-3 p{
+    
+    font-family: serif;
+    font-size: large;
+    text-align: center;
+    color: white;
+}
+
+.parent{
+    margin-top: 10px;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(163, 114, 58);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+.child-1{
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    background-color: rgb(184, 184, 184);
+    border: solid 8px black;
+}
+.child-1 p{
+   
+    background-color: rgb(221, 221, 221);
+    border: solid 6px red;
+    color: rgb(0, 0, 0);
+    padding: 36px;
+   
+}
+.child-2{
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    background-color: rgb(184, 184, 184);
+    border: solid 8px black;
+}
+.child-2 p{
+   
+    background-color: rgb(221, 221, 221);
+    border-top: solid 6px blue;
+    border-bottom: solid 6px blue;
+    border-left:  solid 6px green;
+    border-right: solid 6px green;
+    color: rgb(0, 0, 0);
+    padding: 36px;
+   
+}
+.child-3{
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    background-color: rgb(184, 184, 184);
+    border: solid 8px black;
+}
+.child-3 p{
+   
+    background-color: rgb(221, 221, 221);
+    border-top: dashed 6px red;
+    border-right: dashed 6px green;
+    border-left:  dashed 6px yellow;
+    border-bottom: dashed 6px blue;
+    color: rgb(0, 0, 0);
+    padding: 36px;
+   
+}
